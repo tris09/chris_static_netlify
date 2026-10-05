@@ -1,4 +1,5 @@
 #!/bin/sh
+mkdir -p ./public
 cp ./src/index.html ./public/
 npx sass ./src/sass/style.scss ./public/style.css --style=compressed --no-source-map
 npx esbuild ./src/js/main.js --bundle --outfile=./public/main.js --minify
