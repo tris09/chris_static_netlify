@@ -1,0 +1,30 @@
+{
+  "name": "chris_static_netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tris09/chris_static_netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tris09/chris_static_netlify/issues"
+  },
+  "homepage": "https://github.com/tris09/chris_static_netlify#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "esbuild": "^0.28.2",
+    "sass": "^1.105.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "@parcel/watcher@2.6.0": true
+  }
+}
