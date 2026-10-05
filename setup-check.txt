@@ -1,0 +1,20 @@
+Setup check – 2026-10-06 00:50
+
+✅ System: WSL (Ubuntu 24.04.4 LTS)
+✅ Project folder: /home/tris09/sites/chris_static_netlify
+mise WARN  mise version 2026.10.3 available
+mise WARN  To update, run mise self-update
+✅ mise: 2026.9.12 linux-x64 (2026-09-20)
+✅ mise.toml: node = "24"
+✅ Node: v24.21.0, npm: 11.19.0
+✅ Node comes from mise
+✅ sass: 1.105.1 compiled with dart2js 3.13.5
+✅ esbuild: 0.28.2
+✅ browser-sync: 3.0.4
+   Running ./build.sh ...
+✅ Built: public/index.html
+✅ Built: public/style.css
+✅ Built: public/main.js
+✅ git identity: Tristan Schnitzler <fhs53068@fh-salzburg.ac.at>
+
+🎉 All good! Now commit setup-check.txt.
